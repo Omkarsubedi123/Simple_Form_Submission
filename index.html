@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./index.css" />
+  <body>
+    <form class="Form" onsubmit="myForm(event)">
+      <input type="text" id="firstname" placeholder="Firstname" required />
+      <input type="text" id="lastname" placeholder="Lastname" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" />
+      <input
+        type="password"
+        id="confirmpassword"
+        placeholder="Confirm-Password"
+      />
+      <input type="number" id="age" placeholder="age" />
+      <select name="gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select>
+      <input type="checkbox" id="terms" />
+      <label for="">I Accept terms $ Conditions</label>
+    </form>
+    <button id="btn">Submit</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
