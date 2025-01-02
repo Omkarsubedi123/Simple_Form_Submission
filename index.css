@@ -1,14 +1,14 @@
-.body {
-  /* width: 100%; */
-  display: flex;
-  justify-content: center;
+* {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(87, 60, 60, 0.651),
+    rgba(104, 104, 48, 0.473)
+  );
 }
 .Form {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  /* width: 600px; */
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
